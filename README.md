@@ -21,6 +21,7 @@ This Lambda function scans all files in a specified S3 source bucket, compresses
   - s3:GetObject
   - s3:PutObject
 - Two S3 buckets (source and target)
+- Increase the Lamda execution time out (exp: 5 minutes)
 
 ## Setup
 
